@@ -16,5 +16,13 @@ public class PrinterExec {
 		Printer<String> stringPrinter = new Printer<>("This is String");
 		stringPrinter.print();
 		
+		display("Test");
+	}
+	
+	/*
+	 * 
+	 */
+	private static <T> void display(T t) {
+		System.out.println(t);
 	}
 }
